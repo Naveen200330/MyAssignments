@@ -1,7 +1,7 @@
 let firstname='Naveen';
 console.log(firstname);
 console.log(typeof firstname);
-console.log('--------------------------------');
+console.log('------------------------------');
 let Companyname='Wondersoft';
 console.log(Companyname);
 console.log(typeof Companyname);
