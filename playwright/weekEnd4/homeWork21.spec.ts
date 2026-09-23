@@ -15,11 +15,11 @@ const page = await context.newPage();
 
 await page.goto("https://login.salesforce.com");
 
-await page.getByRole('textbox',{name: "Username"}).fill("amnaveen200390@gmail.com");
+await page.getByRole('textbox',{name: "Username"}).fill("username@gmail.com");
 
 await page.getByRole('button',{name: "Log In"}).click();
 
-await page.getByRole('textbox',{name:"Password"}).fill("Naveen2003");
+await page.getByRole('textbox',{name:"Password"}).fill("password");
 
 await page.getByRole('button',{name: "Log In"}).click();
 
