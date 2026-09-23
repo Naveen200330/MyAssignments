@@ -18,11 +18,11 @@ test ("Edit Individuals",async()=>{
  await page.goto("https://orgfarm-fb3df6e668-dev-ed.develop.my.salesforce.com/");
 
  
-await page.getByRole('textbox',{name: "Username"}).fill("amnaveen2003.83cd90bae47f@agentforce.com");
+await page.getByRole('textbox',{name: "Username"}).fill("username@agentforce.com");
 
 await page.getByRole('button',{name: "Log In"}).click();
 
-await page.getByRole('textbox',{name:"Password"}).fill("Navsway@0@0");
+await page.getByRole('textbox',{name:"Password"}).fill("password");
 
 await page.getByRole('button',{name: "Log In"}).click();
 
